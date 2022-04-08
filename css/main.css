@@ -1,0 +1,66 @@
+html {
+
+  font-family: "Gibson", sans-serif;
+  color: white;
+}
+
+body {
+  margin: 0;
+}
+
+.navigation {
+  background-color: black;
+  display: flex;
+  justify-content: space-between;
+}
+
+ul {
+  display: flex;
+  list-style-type: none;
+  margin: 0;
+  padding-top: 3.25rem;
+}
+
+.nav-item a {
+  color: white;
+  font-size: 1.25rem;
+  padding: 5rem;
+  text-decoration: none;
+  text-transform: uppercase;
+  font-weight: 500;
+  letter-spacing: 6px;
+}
+
+.nav-item a:hover {
+  color: #ffb3b7;
+  text-decoration: none;
+  text-transform: uppercase;
+}
+
+.main-logo {
+  padding: 1.5rem;
+  padding-left: 7.25rem;
+}
+
+.banner-graphic {
+  margin: 0;
+}
+
+.name-banner {
+  margin: 0;
+  background-color: black;
+  display: flex;
+}
+
+.name-banner h1 {
+  margin: 0;
+  padding-top: 1.75rem;
+  padding-bottom: 1.75rem;
+  color: white;
+  font-size: 1.953rem;
+  text-decoration: none;
+  text-transform: uppercase;
+  font-weight: 600;
+  letter-spacing: 20px;
+  text-align: center;
+}
