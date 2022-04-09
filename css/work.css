@@ -47,6 +47,22 @@ ul {
   letter-spacing: 6px;
 }
 
+.nav-item-work a {
+  color: #ffb3b7;
+  font-size: 0.75rem;
+  padding: 0.25rem;
+  text-decoration: none;
+  text-transform: uppercase;
+  font-weight: 500;
+  letter-spacing: 6px;
+}
+
+.nav-item-work a:hover {
+  color: white;
+  text-decoration: none;
+  text-transform: uppercase;
+}
+
 .nav-item a:hover {
   color: #ffb3b7;
   text-decoration: none;
@@ -88,6 +104,29 @@ ul {
   text-align: center;
 }
 /* NOTE: HEADER ENDS HERE */
+
+.type-of-work {
+  margin: 0;
+  background-color: black;
+  grid-row: 1;
+  grid-column: 1;
+  align-self: end;
+  margin-top: 1em;
+  margin-bottom: 1em;
+}
+
+.type-of-work h2 {
+  margin: 0;
+  padding-top: 0.5rem;
+  padding-bottom: 0.5rem;
+  color: white;
+  font-size: 0.55rem;
+  text-decoration: none;
+  text-transform: uppercase;
+  font-weight: 450;
+  letter-spacing: 5px;
+  text-align: center;
+}
 
 p {
   color: black;
