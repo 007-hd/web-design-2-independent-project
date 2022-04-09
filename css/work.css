@@ -132,10 +132,31 @@ p {
   color: black;
   font-size: 1rem;
   margin: 0;
-  padding: 2rem;
+  padding-top: 0.35rem;
+  padding-bottom: 2rem;
   font-weight: 200;
   line-height: 22px;
+  text-align: center;
 }
+
+h3 {
+  color: black;
+  font-size: 1rem;
+  margin: 0;
+  padding: 2rem;
+  font-weight: 400;
+  line-height: 22px;
+  text-transform: uppercase;
+  letter-spacing: 5px;
+}
+
+main img {
+  width: 83%;
+  margin-left: 2rem;
+  margin-right: 2rem;
+}
+
+/* NOTE: END OF MAIN */
 
 /* NOTE: FOOTER STARTS HERE */
 
