@@ -105,6 +105,42 @@ ul {
 }
 /* NOTE: HEADER ENDS HERE */
 
+.directory {
+  display: grid;
+  grid-template-areas:
+  "ad-campaign logo-design"
+  "theatre-poster type-work"
+  "dust-jacket infographic"
+  "watercolour acrylic"
+  "hand-rendering woodburning";
+  grid-gap: 0.1em;
+  padding-top: 2.25em;
+  padding-bottom: 1em;
+  padding-left: 2em;
+  padding-right: 2em;
+}
+
+.skip-to {
+  text-decoration: none;
+  text-transform: uppercase;
+  font-size: 0.8rem;
+  letter-spacing: 2.25px;
+  color: white;
+  background-color: black;
+  text-align: center;
+  padding: 1em;
+  font-weight: 300;
+}
+
+.directory a:hover {
+  color: black;
+  background-color: rgb(255,179,183);
+  text-decoration: none;
+  text-transform: uppercase;
+  padding: 1em;
+  font-weight: 300;
+}
+
 .type-of-work {
   margin: 0;
   background-color: black;
@@ -117,14 +153,14 @@ ul {
 
 .type-of-work h2 {
   margin: 0;
-  padding-top: 0.5rem;
-  padding-bottom: 0.5rem;
+  padding-top: 1rem;
+  padding-bottom: 1rem;
   color: white;
-  font-size: 0.55rem;
+  font-size: 1rem;
   text-decoration: none;
   text-transform: uppercase;
   font-weight: 450;
-  letter-spacing: 5px;
+  letter-spacing: 8px;
   text-align: center;
 }
 
@@ -135,7 +171,7 @@ p {
   padding-left: 4.5rem;
   padding-right: 4.5rem;
   padding-top: 0.35rem;
-  padding-bottom: 2rem;
+  padding-bottom: 3rem;
   font-weight: 200;
   line-height: 22px;
   text-align: center;
@@ -153,7 +189,7 @@ h3 {
 }
 
 main img {
-  width: 83%;
+  width: 89%;
   margin-left: 2rem;
   margin-right: 2rem;
 }
