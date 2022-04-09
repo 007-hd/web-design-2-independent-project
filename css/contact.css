@@ -112,9 +112,63 @@ p {
   padding-left: 4.5rem;
   padding-right: 4.5rem;
   padding-top: 2.5rem;
-  padding-bottom: 2.5rem;
   font-weight: 200;
   line-height: 22px;
+}
+
+.phone-number {
+  padding-bottom: 2.5rem;
+}
+
+.email-link {
+  text-decoration: none;
+  color: black;
+  font-size: 1rem;
+  margin: 0;
+  padding-left: 4.5rem;
+  padding-right: 4.5rem;
+  padding-top: 2.5rem;
+  font-weight: 200;
+  line-height: 22px;
+}
+
+.email-address a:hover {
+  color: #ffb3b7;
+  text-decoration: none;
+}
+
+.instagram-link {
+  text-decoration: none;
+  color: black;
+  font-size: 1rem;
+  margin: 0;
+  padding-left: 4.5rem;
+  padding-right: 4.5rem;
+  padding-top: 2.5rem;
+  font-weight: 200;
+  line-height: 22px;
+}
+
+.instagram-handel a:hover {
+  color: #ffb3b7;
+  text-decoration: none;
+}
+
+.phone-number-link {
+  text-decoration: none;
+  color: black;
+  font-size: 1rem;
+  margin: 0;
+  padding-left: 4.5rem;
+  padding-right: 4.5rem;
+  padding-top: 2.5rem;
+  font-weight: 200;
+  line-height: 22px;
+}
+
+.phone-number a:hover {
+  color: #ffb3b7;
+  text-decoration: none;
 }
 
 /* NOTE: FOOTER STARTS HERE */
