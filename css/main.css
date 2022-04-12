@@ -60,6 +60,7 @@ ul {
 }
 
 .banner-graphic {
+  background-color: #ffb3b7;
   margin: 0;
   grid-row: 1;
   grid-column: 1;
