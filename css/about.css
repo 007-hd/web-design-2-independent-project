@@ -323,3 +323,66 @@ li .button-phone {
 .footer-logo {
   justify-content: flex-end;
 }
+/* NOTE: TABLET SIZING STARTS HERE */
+
+@media only screen and (min-width: 608px) {
+
+  /* NOTE: HEADER TABLET size */
+  html {
+    font-size: 110%;
+    line-height: 1.4;
+  }
+
+  .main-nav {
+    padding-top: 2.75rem;
+    padding-bottom: 2.75rem;
+  }
+
+  .nav-item a {
+    font-size: 100%;
+  }
+  .nav-item-about a {
+    font-size: 100%;
+  }
+
+  .name-banner {
+    margin-bottom: 2.9em;
+  }
+
+  .name-banner h1 {
+    font-size: 1.4rem;
+    letter-spacing: 7.5px;
+  }
+
+  /* NOTE: FOOTER TABLET size */
+
+  .button-instagram, .button-email, .button-phone {
+    width: 3.5em;
+    height: 3.5em;
+  }
+
+  .image-email {
+    padding-top: 1em;
+  }
+
+  .image-phone {
+    padding-top: 0.55em;
+    padding-left: 0.25em;
+  }
+
+  .image-instagram {
+    padding-top: 0.84em;
+  }
+
+  .footer-nav-work a, .footer-nav-about a, .footer-nav-contact a {
+    font-size: 0.9rem;
+  }
+
+  .footer-logo {
+    padding-right: 3em;
+    padding-top: 2em;
+    padding-bottom: 2em;
+    padding-left: 0.5em;
+  }
+
+}
