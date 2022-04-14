@@ -385,6 +385,10 @@ li .button-phone {
     font-size: 100%;
   }
 
+  .nav-item-work a {
+    font-size: 100%;
+  }
+
   .name-banner {
     margin-bottom: 2.9em;
   }
@@ -393,6 +397,12 @@ li .button-phone {
     font-size: 1.4rem;
     letter-spacing: 7.5px;
   }
+
+  /* NOTE: MAIN CONTENT - WORK-  TABLET size */
+  main img {
+    width: 88.5%;
+  }
+
 
   /* NOTE: FOOTER TABLET size */
 
