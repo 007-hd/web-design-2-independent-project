@@ -1,6 +1,6 @@
 html {
 
-  font-family: "Gibson", sans-serif;
+  font-family: Gibson, sans-serif;
   color: white;
 }
 
@@ -9,7 +9,7 @@ body {
 }
 
 /* img {
-  width: 100%;
+width: 100%;
 } */
 
 /* NOTE: HEADER STARTS HERE */
@@ -116,8 +116,8 @@ footer {
   display: grid;
   gap: 1.5rem;
   grid-template-areas:
-    "instagram  email  phone  logo"
-    "work  about  contact  logo";
+  "instagram  email  phone  logo"
+  "work  about  contact  logo";
 }
 
 .button-instagram a, .button-email a, .button-phone a {
@@ -239,7 +239,7 @@ li .button-phone {
 
 /* NOTE: TABLET SIZING STARTS HERE */
 
-@media only screen and (min-width: 608px) {
+@media only screen and (min-width: 38em) {
 
   /* NOTE: HEADER TABLET size */
   html {
@@ -294,7 +294,7 @@ li .button-phone {
 
 /* NOTE: DESKTOP SIZING STARTS HERE */
 
-@media only screen and (min-width: 800px) {
+@media only screen and (min-width: 50em) {
 
   /* NOTE: HEADER TABLET size */
   html {
@@ -329,7 +329,7 @@ li .button-phone {
     margin-right: 5em;
   }
 
-    /* NOTE: FOOTER DESKTOP size */
+  /* NOTE: FOOTER DESKTOP size */
 
   .buttons {
     padding-left: 3.5rem;
