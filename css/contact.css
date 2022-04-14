@@ -123,7 +123,7 @@ p {
 
 .email-link {
   text-decoration: none;
-  color: black;
+  color: #ffb3b7;
   font-size: 1rem;
   margin: 0;
   padding-left: 4.5rem;
@@ -134,13 +134,13 @@ p {
 }
 
 .email-address a:hover {
-  color: #ffb3b7;
+  color: rgb(176,157,218);
   text-decoration: none;
 }
 
 .instagram-link {
   text-decoration: none;
-  color: black;
+  color: #ffb3b7;
   font-size: 1rem;
   margin: 0;
   padding-left: 4.5rem;
@@ -151,13 +151,13 @@ p {
 }
 
 .instagram-handel a:hover {
-  color: #ffb3b7;
+  color: rgb(176,157,218);
   text-decoration: none;
 }
 
 .phone-number-link {
   text-decoration: none;
-  color: black;
+  color: #ffb3b7;
   font-size: 1rem;
   margin: 0;
   padding-left: 4.5rem;
@@ -168,7 +168,7 @@ p {
 }
 
 .phone-number a:hover {
-  color: #ffb3b7;
+  color: rgb(176,157,218);
   text-decoration: none;
 }
 
@@ -337,4 +337,77 @@ li .button-phone {
 
 .footer-logo {
   justify-content: flex-end;
+}
+
+
+/* NOTE: TABLET SIZING STARTS HERE */
+
+@media only screen and (min-width: 608px) {
+
+  /* NOTE: HEADER TABLET size */
+  html {
+    font-size: 110%;
+    line-height: 1.4;
+  }
+
+  p {
+    line-height: 110%
+  }
+
+  .main-nav {
+    padding-top: 2.75rem;
+    padding-bottom: 2.75rem;
+  }
+
+  .nav-item a {
+    font-size: 100%;
+  }
+  .nav-item-contact a {
+    font-size: 100%;
+  }
+
+  .name-banner {
+    margin-bottom: 2.9em;
+  }
+
+  .name-banner h1 {
+    font-size: 1.4rem;
+    letter-spacing: 7.5px;
+  }
+
+  /* NOTE: FOOTER TABLET size */
+
+  .buttons {
+    padding-right: 0.5rem;
+  }
+
+  .button-instagram, .button-email, .button-phone {
+    width: 3.5em;
+    height: 3.5em;
+  }
+
+  .image-email {
+    padding-top: 1em;
+  }
+
+  .image-phone {
+    padding-top: 0.55em;
+    padding-left: 0.25em;
+  }
+
+  .image-instagram {
+    padding-top: 0.84em;
+  }
+
+  .footer-nav-work a, .footer-nav-about a, .footer-nav-contact a {
+    font-size: 0.9rem;
+  }
+
+  .footer-logo {
+    padding-right: 3em;
+    padding-top: 2em;
+    padding-bottom: 2em;
+    padding-left: 0em;
+  }
+
 }

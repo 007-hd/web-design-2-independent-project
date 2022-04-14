@@ -318,6 +318,7 @@ li .button-phone {
   padding-right: 1em;
   padding-top: 2em;
   padding-bottom: 2em;
+  padding-left: 0rem;
 }
 
 .footer-logo {
@@ -331,6 +332,10 @@ li .button-phone {
   html {
     font-size: 110%;
     line-height: 1.4;
+  }
+
+  p {
+    line-height: 110%
   }
 
   .main-nav {
@@ -355,6 +360,10 @@ li .button-phone {
   }
 
   /* NOTE: FOOTER TABLET size */
+
+  .buttons {
+    padding-right: 0.5rem;
+  }
 
   .button-instagram, .button-email, .button-phone {
     width: 3.5em;
@@ -382,7 +391,7 @@ li .button-phone {
     padding-right: 3em;
     padding-top: 2em;
     padding-bottom: 2em;
-    padding-left: 0.5em;
+    padding-left: 0em;
   }
 
 }

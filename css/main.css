@@ -251,6 +251,7 @@ li .button-phone {
   padding-right: 1em;
   padding-top: 2em;
   padding-bottom: 2em;
+  padding-left: 0rem;
 }
 
 .footer-logo {
@@ -265,6 +266,9 @@ li .button-phone {
   html {
     font-size: 110%;
     line-height: 1.4;
+  }
+  p {
+    line-height: 110%
   }
 
   .main-nav {
@@ -286,6 +290,10 @@ li .button-phone {
   }
 
   /* NOTE: FOOTER TABLET size */
+
+  .buttons {
+    padding-right: 0.5rem;
+  }
 
   .button-instagram, .button-email, .button-phone {
     width: 3.5em;
@@ -313,7 +321,58 @@ li .button-phone {
     padding-right: 3em;
     padding-top: 2em;
     padding-bottom: 2em;
-    padding-left: 0.5em;
+    padding-left: 0em;
+  }
+
+}
+
+/* NOTE: DESKTOP SIZING STARTS HERE */
+
+@media only screen and (min-width: 800px) {
+
+  /* NOTE: HEADER TABLET size */
+  html {
+    font-size: 125%;
+    line-height: 1.4;
+  }
+
+  p {
+    line-height: 120%;
+  }
+
+  .nav-logo {
+    width: 141%;
+  }
+
+  .nav-item a {
+    letter-spacing: 10px;
+    padding: 1.25em;
+  }
+
+  .name-banner {
+    margin-bottom: 3.3em;
+  }
+
+  .name-banner h1 {
+    font-size: 1.5rem;
+    letter-spacing: 16.5px;
+  }
+
+  main {
+    margin-left: 4em;
+    margin-right: 4em;
+  }
+
+    /* NOTE: FOOTER DESKTOP size */
+
+  .buttons {
+    padding-left: 3.5rem;
+    padding-right: 6rem;
+  }
+
+  .footer-logo {
+    padding-right: 3.5rem;
+    padding-left: 0rem;
   }
 
 }
