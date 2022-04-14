@@ -9,7 +9,7 @@ body {
 }
 
 /* img {
-  width: 100%;
+width: 100%;
 } */
 
 /* NOTE: HEADER STARTS HERE */
@@ -128,20 +128,20 @@ p {
 .origins {
   display: grid;
   grid-template-areas:
-  "paragraph  haley";
+  "paragraph"  "haley";
 }
 
 .pic-haley {
   grid-area: haley;
   width: 74%;
   padding-right: 3em;
-  padding-left: 1em;
+  padding-left: 4.5em;
   padding-top: 0.75em;
 }
 
 .origins-description {
   grid-area: paragraph;
-  padding-right: 0;
+  padding-right: 4.5em;
 }
 
 .skills-list {
@@ -171,8 +171,8 @@ footer {
   display: grid;
   gap: 1.5rem;
   grid-template-areas:
-    "instagram  email  phone  logo"
-    "work  about  contact  logo";
+  "instagram  email  phone  logo"
+  "work  about  contact  logo";
 }
 
 .button-instagram a, .button-email a, .button-phone a {
@@ -303,7 +303,7 @@ li .button-phone {
   }
 
   p {
-    line-height: 110%
+    line-height: 125%
   }
 
   .main-nav {
@@ -325,6 +325,18 @@ li .button-phone {
   .name-banner h1 {
     font-size: 1.4rem;
     letter-spacing: 7.5px;
+  }
+  /* NOTE: MAIN CONTENT TABLET size */
+
+  .origins {
+    display: grid;
+    grid-template-areas:
+    "paragraph haley";
+  }
+
+  .pic-haley {
+    padding-left: 0;
+    padding-right: 0;
   }
 
   /* NOTE: FOOTER TABLET size */
@@ -382,18 +394,26 @@ li .button-phone {
     font-size: 1.5rem;
     letter-spacing: 16.5px;
   }
-    /* NOTE: MAIN CONTENT -  DESKTOP size */
+  /* NOTE: MAIN CONTENT -  DESKTOP size */
 
   main {
     margin-left: 5em;
     margin-right: 5em;
   }
 
-  .pic-haley {
-    width: 50%;
+  .origins {
+    display: grid;
+    grid-template-areas:
+    "paragraph haley";
   }
 
-    /* NOTE: FOOTER DESKTOP size */
+  .pic-haley {
+    width: 100%;
+    padding-right: 0;
+    padding-left: 0;
+  }
+
+  /* NOTE: FOOTER DESKTOP size */
 
   .buttons {
     padding-left: 3.5rem;
