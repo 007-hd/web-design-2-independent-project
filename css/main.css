@@ -120,71 +120,50 @@ footer {
     "work  about  contact  logo";
 }
 
-.button-instagram, .button-email, .button-phone {
+.button-instagram a, .button-email a, .button-phone a {
   border-radius: 50%;
   background: rgb(255,179,183);
   background: linear-gradient(90deg, rgba(255,179,183,1) 0%, rgba(255,236,192,1) 100%);
   width: 2.5em;
   height: 2.5em;
   justify-self: center;
+  display: flex;
+  text-align: center;
+  justify-content: center;
 }
 
 .button-phone a:hover {
-  border-radius: 50%;
   background: rgb(176,157,218);
   background: linear-gradient(90deg, rgba(176,157,218,1) 0%, rgba(182,229,239,1) 100%);
 }
 
 .button-email a:hover {
-  border-radius: 50%;
   background: rgb(176,157,218);
   background: linear-gradient(90deg, rgba(176,157,218,1) 0%, rgba(182,229,239,1) 100%);
+
 }
 
 .button-instagram a:hover {
-  border-radius: 50%;
   background: rgb(176,157,218);
   background: linear-gradient(90deg, rgba(176,157,218,1) 0%, rgba(182,229,239,1) 100%);
+
 }
 
 .button-instagram img, .button-email img, .button-phone img {
   width: 50%;
-  margin: 0 auto;
 }
 
 li .button-instagram {
   grid-area: instagram;
 }
 
-.image-instagram {
-  display: inline-block;
-  text-align: center;
-  padding-top: 0.7rem;
-}
-
 li .button-email {
   grid-area: email;
-  margin-left: 1rem;
-}
-
-.image-email {
-  display: inline-block;
-  text-align: center;
-  padding-top: 0.8em;
 }
 
 li .button-phone {
   grid-area: phone;
 }
-
-.image-phone {
-  display: inline-block;
-  text-align: center;
-  width: 86%;
-  padding-left: 0.2em;
-  padding-top: 0.42em;
-}
-
 .footer-nav-work {
   grid-area: work;
 }
@@ -298,19 +277,6 @@ li .button-phone {
   .button-instagram, .button-email, .button-phone {
     width: 3.5em;
     height: 3.5em;
-  }
-
-  .image-email {
-    padding-top: 1em;
-  }
-
-  .image-phone {
-    padding-top: 0.55em;
-    padding-left: 0.25em;
-  }
-
-  .image-instagram {
-    padding-top: 0.84em;
   }
 
   .footer-nav-work a, .footer-nav-about a, .footer-nav-contact a {
