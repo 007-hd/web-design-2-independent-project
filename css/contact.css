@@ -39,8 +39,8 @@ ul {
 
 .nav-item a {
   color: white;
-  font-size: 1rem;
-  padding: 1rem;
+  font-size: 0.75rem;
+  padding: 0.5rem;
   text-decoration: none;
   text-transform: uppercase;
   font-weight: 500;
@@ -55,8 +55,8 @@ ul {
 
 .nav-item-contact a {
   color: #ffb3b7;
-  font-size: 1rem;
-  padding: 1rem;
+  font-size: 0.75rem;
+  padding: 0.5rem;
   text-decoration: none;
   text-transform: uppercase;
   font-weight: 500;
@@ -76,7 +76,7 @@ ul {
 }
 
 .banner-graphic {
-  background-color: #ffb3b7; 
+  background-color: #ffb3b7;
   margin: 0;
   grid-row: 1;
   grid-column: 1;
@@ -89,7 +89,7 @@ ul {
   grid-row: 1;
   grid-column: 1;
   align-self: end;
-  margin-bottom: 3em;
+  margin-bottom: 2.1em;
 }
 
 .name-banner h1 {
@@ -97,11 +97,11 @@ ul {
   padding-top: 1.25rem;
   padding-bottom: 1.25rem;
   color: white;
-  font-size: 1.25rem;
+  font-size: 1rem;
   text-decoration: none;
   text-transform: uppercase;
   font-weight: 500;
-  letter-spacing: 9.5px;
+  letter-spacing: 6.5px;
   text-align: center;
 }
 /* NOTE: HEADER ENDS HERE */
@@ -182,7 +182,7 @@ footer {
 .buttons {
   padding-top: 4rem;
   padding-bottom: 4rem;
-  padding-left: 4rem;
+  padding-left: 1.5rem;
   display: grid;
   gap: 1.5rem;
   grid-template-areas:
@@ -329,10 +329,9 @@ li .button-phone {
 
 .footer-logo {
   grid-area: logo;
-  width: 88%;
-  padding-right: 2em;
+  width: 100%;
+  padding-right: 1em;
   padding-top: 2em;
-  padding-left: 1em;
   padding-bottom: 2em;
 }
 

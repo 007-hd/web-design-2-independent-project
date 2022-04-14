@@ -39,8 +39,8 @@ ul {
 
 .nav-item a {
   color: white;
-  font-size: 1rem;
-  padding: 1rem;
+  font-size: 0.75rem;
+  padding: 0.5rem;
   text-decoration: none;
   text-transform: uppercase;
   font-weight: 500;
@@ -73,7 +73,7 @@ ul {
   grid-row: 1;
   grid-column: 1;
   align-self: end;
-  margin-bottom: 3em;
+  margin-bottom: 2.1em;
 }
 
 .name-banner h1 {
@@ -81,11 +81,11 @@ ul {
   padding-top: 1.25rem;
   padding-bottom: 1.25rem;
   color: white;
-  font-size: 1.25rem;
+  font-size: 1rem;
   text-decoration: none;
   text-transform: uppercase;
   font-weight: 500;
-  letter-spacing: 9.5px;
+  letter-spacing: 6.5px;
   text-align: center;
 }
 /* NOTE: HEADER ENDS HERE */
@@ -112,7 +112,7 @@ footer {
 .buttons {
   padding-top: 4rem;
   padding-bottom: 4rem;
-  padding-left: 4rem;
+  padding-left: 1.5rem;
   display: grid;
   gap: 1.5rem;
   grid-template-areas:
@@ -133,30 +133,18 @@ footer {
   border-radius: 50%;
   background: rgb(176,157,218);
   background: linear-gradient(90deg, rgba(176,157,218,1) 0%, rgba(182,229,239,1) 100%);
-  width: 2.5em;
-  height: 2.5em;
-  justify-self: center;
-  padding:0;
 }
 
 .button-email a:hover {
   border-radius: 50%;
   background: rgb(176,157,218);
   background: linear-gradient(90deg, rgba(176,157,218,1) 0%, rgba(182,229,239,1) 100%);
-  width: 2.5em;
-  height: 2.5em;
-  justify-self: center;
-  padding:0;
 }
 
 .button-instagram a:hover {
   border-radius: 50%;
   background: rgb(176,157,218);
   background: linear-gradient(90deg, rgba(176,157,218,1) 0%, rgba(182,229,239,1) 100%);
-  width: 2.5em;
-  height: 2.5em;
-  justify-self: center;
-  padding:0;
 }
 
 .button-instagram img, .button-email img, .button-phone img {
@@ -259,13 +247,73 @@ li .button-phone {
 
 .footer-logo {
   grid-area: logo;
-  width: 88%;
-  padding-right: 2em;
+  width: 100%;
+  padding-right: 1em;
   padding-top: 2em;
-  padding-left: 1em;
   padding-bottom: 2em;
 }
 
 .footer-logo {
   justify-content: flex-end;
+}
+
+/* NOTE: TABLET SIZING STARTS HERE */
+
+@media only screen and (min-width: 608px) {
+
+  /* NOTE: HEADER TABLET size */
+  html {
+    font-size: 110%;
+    line-height: 1.4;
+  }
+
+  .main-nav {
+    padding-top: 2.75rem;
+    padding-bottom: 2.75rem;
+  }
+
+  .nav-item a {
+    font-size: 100%;
+  }
+
+  .name-banner {
+    margin-bottom: 2.9em;
+  }
+
+  .name-banner h1 {
+    font-size: 1.4rem;
+    letter-spacing: 7.5px;
+  }
+
+  /* NOTE: FOOTER TABLET size */
+
+  .button-instagram, .button-email, .button-phone {
+    width: 3.5em;
+    height: 3.5em;
+  }
+
+  .image-email {
+    padding-top: 1em;
+  }
+
+  .image-phone {
+    padding-top: 0.55em;
+    padding-left: 0.25em;
+  }
+
+  .image-instagram {
+    padding-top: 0.84em;
+  }
+
+  .footer-nav-work a, .footer-nav-about a, .footer-nav-contact a {
+    font-size: 0.9rem;
+  }
+
+  .footer-logo {
+    padding-right: 3em;
+    padding-top: 2em;
+    padding-bottom: 2em;
+    padding-left: 0.5em;
+  }
+
 }
